@@ -89,27 +89,6 @@ function BaseToast({
 
 BaseToast.HEIGHT = HEIGHT;
 
-BaseToast.propTypes = {
-  leadingIcon: Icon.propTypes.source,
-  trailingIcon: Icon.propTypes.source,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  onPress: PropTypes.func,
-  onTrailingIconPress: PropTypes.func,
-  onLeadingIconPress: PropTypes.func,
-  style: stylePropType,
-  leadingIconContainerStyle: stylePropType,
-  trailingIconContainerStyle: stylePropType,
-  leadingIconStyle: stylePropType,
-  trailingIconStyle: stylePropType,
-  contentContainerStyle: stylePropType,
-  text1Style: stylePropType,
-  text2Style: stylePropType,
-  activeOpacity: PropTypes.number,
-  text1NumberOfLines: PropTypes.number,
-  text2NumberOfLines: PropTypes.number
-};
-
 BaseToast.defaultProps = {
   leadingIcon: undefined,
   trailingIcon: icons.close,

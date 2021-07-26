@@ -27,11 +27,6 @@ const imageSourcePropType = PropTypes.oneOfType([
   })
 ]);
 
-Icon.propTypes = {
-  source: imageSourcePropType,
-  style: stylePropType
-};
-
 Icon.defaultProps = {
   source: undefined,
   style: undefined
